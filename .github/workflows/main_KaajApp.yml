@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.8'
+        python-version: '3.9'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'KaajApp'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_782fdce237ff424a82ccdc0ce791e714 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1d027341cf5745e8a380c9a97f9f4eb2 }}
